@@ -1,3 +1,13 @@
-input {
-    border-radius: 1px;
+
+
+.noActive {
+    border: 1px solid #fc8181;
+}
+.active {
+    border: 1px solid #9ae6b4;
+}
+
+form input:focus {
+    outline: none;
+
 }
